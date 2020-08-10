@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.ladicdn.com	TRUE	/	FALSE	1999999999	__cfduid	d60d0a288ea6dce4f4c4e6cae3be3dc611595951354
+w.ladicdn.com	TRUE	/	FALSE	1999999999	SameSite	Lax
+

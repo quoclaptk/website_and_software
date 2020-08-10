@@ -1,0 +1,15 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 28 Jul 2020 22:42:31 at http://cccream.lamdepcongvanesa.xyz/vanesa +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://cccream.lamdepcongvanesa.xyz/vanesa -O1 "D:\MyPham\LadiPages\Downloads\vanesa" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+22:42:53	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://w.ladicdn.com:443/5cb88d3ac1b74d75979f9fb5/110337368_735916067204344_3745828291602262152_o-20200720043706.jpg (from cccream.lamdepcongvanesa.xyz/vanesa)
+22:42:54	Warning: 	Retry after error -5 (error:00000001:lib(0):func(0):reason(1)) at link https://w.ladicdn.com:443/5cb88d3ac1b74d75979f9fb5/110337368_735916067204344_3745828291602262152_o-20200720043706.jpg (from cccream.lamdepcongvanesa.xyz/vanesa)
+22:42:54	Warning: 	Link cccream.lamdepcongvanesa.xyz/POST not scanned (follow robots meta tag)
+22:42:54	Error: 	"error:00000001:lib(0):func(0):reason(1)" (-5) after 2 retries at link https://w.ladicdn.com:443/5cb88d3ac1b74d75979f9fb5/110337368_735916067204344_3745828291602262152_o-20200720043706.jpg (from cccream.lamdepcongvanesa.xyz/vanesa)
+
+HTTrack Website Copier/3.49-2 mirror complete in 23 seconds : 96 links scanned, 92 files written (22778591 bytes overall) [22033194 bytes received at 957964 bytes/sec], 22707563 bytes transferred using HTTP compression in 90 files, ratio 96%, 5.8 requests per connection
+(1 errors, 3 warnings, 0 messages)

@@ -1,0 +1,16 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 23 Jul 2020 21:03:00 at https://www.thailish.com.vn/mioskin +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.thailish.com.vn/mioskin -O1 "D:\MyPham\LadiPages\Downloads\mioskin01" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+21:03:15	Warning: 	Retry after error -4 (No data (connection closed)) at link https://www.thailish.com.vn/demopage.me (from https://www.thailish.com.vn/mioskin)
+21:03:15	Warning: 	Link https://www.thailish.com.vn/ladi.me not scanned (follow robots meta tag)
+21:03:15	Warning: 	Link https://www.thailish.com.vn/pro5.me not scanned (follow robots meta tag)
+21:03:15	Warning: 	Link https://www.thailish.com.vn/POST not scanned (follow robots meta tag)
+21:03:15	Warning: 	Link https://www.thailish.com.vn/demopage.me not scanned (follow robots meta tag)
+
+HTTrack Website Copier/3.49-2 mirror complete in 15 seconds : 52 links scanned, 50 files written (3840240 bytes overall) [3397394 bytes received at 226492 bytes/sec], 3630518 bytes transferred using HTTP compression in 47 files, ratio 87%, 4.8 requests per connection
+(No errors, 5 warnings, 0 messages)

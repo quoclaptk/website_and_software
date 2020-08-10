@@ -1,0 +1,62 @@
+<?php 
+
+namespace Modules\Models;
+
+use Phalcon\Mvc\Model;
+
+/**
+ * PasswordChanges
+ *
+ * Register when a user changes his/her password
+ */
+class PasswordChanges extends Model
+{
+    /**
+     *
+     * @var integer
+     */
+    public $id;
+
+    /**
+     *
+     * @var integer
+     */
+    public $usersId;
+
+    /**
+     *
+     * @var string
+     */
+    public $ipAddress;
+
+    /**
+     *
+     * @var string
+     */
+    public $userAgent;
+
+    /**
+     *
+     * @var integer
+     */
+    public $createdAt;
+
+    /**
+     * Initialize method for model.
+     */
+    public function initialize()
+    {
+        $this->belongsTo('usersId', 'Modules\Models\Users', 'id', array(
+            'alias' => 'user'
+        ));
+    }
+
+    /**
+     * Before create the user assign a password
+     */
+    public function beforeValidationOnCreate()
+    {
+        //Timestamp the confirmaton
+        $this->createdAt = time();
+    }
+}

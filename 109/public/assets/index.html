@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Bóng đá việt</title>
+      <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+      <link href="plugins/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+      <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" /> 
+      <link rel="stylesheet" href="css/swiper.css">
+      <link rel="stylesheet" href="css/slider.css">
+      <link rel="stylesheet" href="plugins/jscrollpane/jquery.jscrollpane.css">
+      <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    </head>
+  <body>
+      <header>
+        <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <div id="logo">
+                      <a href="#"><img src="images/logo.png" alt="logo" /></a>
+                  </div>
+              </div>
+              <div class="col-md-8 hidden-xs hidden-sm">
+                  <div id="banner">
+                      <a href="#" target="_blank"><img src="images/banner_top.png" alt="banner" /></a>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </header>    
+      
+
+      <div class="container">
+          <div class="row">
+              <div class="col-xs-12 col-md-12 col-sm-12 custom-menu">
+                  <div class="ma-nav-mobile-container visible-xs">
+                      <div class="navbar">
+                          <div id="navbar-inner" class="navbar-inner navbar-inactive">
+                              <div class="menu-mobile">
+                                  <a class="btn btn-navbar navbar-toggle">
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                                      <span class="icon-bar"></span>
+                                  </a>
+                                  <span class="brand navbar-brand">Menu</span>
+                              </div>
+                              <ul id="ma-mobilemenu" class="mobilemenu nav-collapse collapse">
+                                  <li class="level0 level-top">
+                                      <a href="#" class="level-top">
+                                          <span>Trang chủ</span>
+                                      </a>        
+                                  </li>
+                                  <li class="level0 level-top">
+                                      <a href="#" class="level-top">
+                                          <span>Trực tiếp</span>
+                                      </a>     
+                                  </li>
+                                  <li class="level0 level-top">
+                                      <a href="#" class="level-top">
+                                          <span>Livescore</span>
+                                      </a>     
+                                  </li>
+                                  <li class="level0 level-top">
+                                      <a href="#" class="level-top">
+                                          <span>Tỉ lệ</span>
+                                      </a>     
+                                  </li>
+                                  <li class="level0 level-top">
+                                      <a href="#" class="level-top">
+                                          <span>Nhận định</span>
+                                      </a>     
+                                  </li>
+                                  <li class="level0 nav-1 level-top parent">
+                                      <a href="#" class="level-top">
+                                          <span>Tin tức</span>
+                                      </a>
+                                      <ul class="level0">
+                                          <li>
+                                              <a href="#">
+                                                  <span>Ngoại hạng Anh</span>
+                                              </a>
+                                          </li>
+                                            <li>
+                                              <a href="#">
+                                                  <span>Italia</span>
+                                              </a>
+                                          </li>                                             
+                                      </ul>
+                                  </li>
+                                  <li class="level0 level-top">
+                                      <a href="#" class="level-top">
+                                          <span>Video</span>
+                                      </a>     
+                                  </li>
+                                  <li class="level0 level-top">
+                                      <a href="#" class="level-top">
+                                          <span>Xem TV</span>
+                                      </a>     
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="nav-container visible-lg visible-md">
+                      <div class="container-inner">
+                          <div id="pt_custommenu" class="pt_custommenu">
+                              <div id="pt_menu_link" class="pt_menu">
+                                  <div class="parentMenu">
+                                      <ul>
+                                          <li>
+                                              <a class="act" href="#" title=""><i class="fa fa-home"></i></a>
+                                          </li>
+                                          <li>
+                                              <a href="#" title="">Trực tiếp</a>
+                                          </li>
+                                          <li>
+                                              <a href="#" title="">Livescore</a>
+                                          </li>
+                                          <li>
+                                              <a href="#" title="">Tỉ lệ</a>
+                                          </li>
+                                          <li>
+                                              <a href="#" title="">Nhận định</a>
+                                          </li>
+                                          <li>
+                                              <a href="#" title="">Tin tức</a>
+                                          </li>
+                                          <li>
+                                              <a href="#" title="">Video</a>
+                                          </li>
+                                          <li>
+                                              <a href="#" title="">Xem tv</a>
+                                          </li>
+                                      </ul>
+                                  </div>
+                              </div>
+                              <div class="clearBoth"></div>
+                          </div>
+                      </div>
+                  </div>
+                 
+                 
+              </div>
+          </div>
+      </div>
+     
+      <div id="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-8" id="wrap-content">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-9">
+                            <div id="slider" class="clearfix">
+                                <div class="swiper-container">
+                                    <div class="parallax-bg" data-swiper-parallax="-23%"></div>
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                          <a href="#"><img src="images/39.jpg"></a>
+                                            <div class="text_slider">
+                                              <div class="subtitle" data-swiper-parallax="-200"><a href="#">Full Highlights and Penalty Shootout</a></div>
+                                              <div class="text" data-swiper-parallax="-300">
+                                                  <p>Looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through...</p>
+                                              </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                          <a href="#"><img src="images/23.jpg"></a>
+                                            <div class="text_slider">
+                                              <div class="subtitle" data-swiper-parallax="-200"><a href="#">Full Highlights and Penalty Shootout</a></div>
+                                              <div class="text" data-swiper-parallax="-300">
+                                                  <p>Looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through...</p>
+                                              </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                          <a href="#"><img src="images/24.jpg"></a>
+                                            <div class="text_slider">
+                                              <div class="subtitle" data-swiper-parallax="-200"><a href="#">Full Highlights and Penalty Shootout</a></div>
+                                              <div class="text" data-swiper-parallax="-300">
+                                                  <p>Looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through...</p>
+                                              </div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <!-- Add Pagination 
+                                    <div class="swiper-pagination swiper-pagination-white"></div>-->
+                                    <!-- Add Navigation -->
+                                    <div class="swiper-button-prev swiper-button-white"></div>
+                                    <div class="swiper-button-next swiper-button-white"></div>
+
+
+                                </div>
+                                  <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-s-12 col-md-3" id="list_nhandinh">
+                              <ul class="list-news" id="scolling_list">
+                                  <li><a href="http://123thethao.com/lich-thi-dau-ket-qua/lich-thi-dau-truc-tiep-tran-dau-giua-guingamp-va-paris-saintgermain.html">Lịch thi đấu trực tiếp trận đấu giữa Guingamp và Paris Saint-Germain</a></li>
+                                  <li><a href="http://123thethao.com/lich-thi-dau-ket-qua/lich-thi-dau-truc-tiep-tran-dau-giua-sunderland-va-leicester-city.html">Lịch thi đấu trực tiếp trận đấu giữa Sunderland và Leicester City</a></li>
+                                  <li><a href="http://123thethao.com/lich-thi-dau-ket-qua/lich-thi-dau-truc-tiep-tran-dau-giua-manchester-city-va-west-bromwich-albion.html">Lịch thi đấu trực tiếp trận đấu giữa Manchester City và West Bromwich Albion</a></li>
+                                  <li><a href="http://123thethao.com/viet-nam/van-quyet-khong-duoc-giam-an-phat-vu-xo-nga-trong-tai.html">Văn Quyết không được giảm án phạt vụ xô ngã trọng tài</a></li>
+                                  <li><a href="http://123thethao.com/nhan-vat/schmeichel-rooney-nen-lui-xuong-choi-tien-ve.html">Schmeichel: 'Rooney nên lùi xuống chơi tiền vệ'</a></li>
+                                  <li><a href="http://123thethao.com/champions-league/blanc-doi-hinh-man-city-chat-luong-hon-psg.html">Blanc: 'Đội hình Man City chất lượng hơn PSG'</a></li>
+                                  <li><a href="http://123thethao.com/nhan-vat/real-can-thay-doi-dieu-gi-de-co-the-theo-kip-barca.html">Real cần thay đổi điều gì để có thể theo kịp Barca?</a></li>
+                                  <li><a href="http://123thethao.com/chuyen-nhuong/neymar-sap-sang-psg-barca-noi-gi.html">Neymar sắp sang PSG, Barca nói gì?</a></li>
+                                  <li><a href="http://123thethao.com/chuyen-nhuong/real-ra-gia-thanh-ly-james-mu-va-chelsea-dai-chien.html">Real ra giá ‘thanh lý’ James, MU và Chelsea đại chiến</a></li>
+                                  <li><a href="http://123thethao.com/ngoai-hang-anh/sau-vong-32-ngoai-hang-anh-thanh-man-dua-top-4.html">Sau vòng 32 Ngoại hạng Anh: Thành Man đua top 4</a></li>
+                              </ul>
+                        </div>
+                    </div>
+                    
+
+                    <div class="box_category">
+                        <div class="header"><h2 class="title">Ngoại hạng Anh</h2></div>
+                        <div class="content">
+                            <div class="view-aside-news">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                          <div class="first-news">
+                                            <a href="http://123thethao.com/italia/goc-napoli-da-trang-xe-cat.html"><img class="img-responsive" src="http://123thethao.com/timthumb.php?src=http://123thethao.com/uploads/news/05-04-2016/napoli-660x350.jpg&amp;w=680&amp;h=400&amp;zc=1" alt="Góc Napoli: Dã tràng xe cát"></a><h4 class="title"><a href="http://123thethao.com/italia/goc-napoli-da-trang-xe-cat.html" title="Góc Napoli: Dã tràng xe cát">Góc Napoli: Dã tràng xe cát</a></h4><p class="sumary">(BongDa.com.vn) – Bước ngoặt đã xảy ra ở vòng 32 Serie A mùa này khi Napoli gục ngã trước Udinese còn Juventus thì vẫn...</p>
+                                          </div>
+                                         
+                                    </div>
+                                    <div class="col-md-5">
+                                                        <div class="list-new">
+                                            
+                                            <div class="item-n"><a class="img-tb" href="http://123thethao.com/italia/juventus-tien-gan-toi-chuc-vo-dich-serie-a.html"><img class="img-responsive" src="http://123thethao.com/uploads/news/04-04-2016/man-9528-1459640410.jpg" alt="Juventus tiến gần tới chức vô địch Serie A"></a><div class="info">
+                                              <a href="http://123thethao.com/italia/juventus-tien-gan-toi-chuc-vo-dich-serie-a.html" class="title">Juventus tiến gần tới chức vô địch Serie A</a>
+                                              
+                                            </div></div>
+                                          
+                                            <div class="item-n"><a class="img-tb" href="http://123thethao.com/italia/cesare-maldini-tam-khien-bat-tu-cua-doi-bong-mau-do-den.html"><img class="img-responsive" src="http://123thethao.com/uploads/news/04-04-2016/CesareMaldini2.jpg" alt="Cesare Maldini: Tấm khiên bất tử của đội bóng màu đỏ đen"></a><div class="info">
+                                              <a href="http://123thethao.com/italia/cesare-maldini-tam-khien-bat-tu-cua-doi-bong-mau-do-den.html" class="title">Cesare Maldini: Tấm khiên bất tử của đội bóng màu đỏ đen</a>
+                                              
+                                            </div></div>
+                                          
+                                            <div class="item-n"><a class="img-tb" href="http://123thethao.com/italia/higuain-bi-the-do-napoli-phoi-ao-truoc-udinese.html"><img class="img-responsive" src="http://123thethao.com/uploads/news/04-04-2016/nese1.jpg" alt="Higuain bị thẻ đỏ, Napoli “phơi áo” trước Udinese"></a><div class="info">
+                                              <a href="http://123thethao.com/italia/higuain-bi-the-do-napoli-phoi-ao-truoc-udinese.html" class="title">Higuain bị thẻ đỏ, Napoli “phơi áo” trước Udinese</a>
+                                              
+                                            </div></div>
+                                            <div class="item-n"><a class="img-tb" href="http://123thethao.com/italia/higuain-bi-the-do-napoli-phoi-ao-truoc-udinese.html"><img class="img-responsive" src="http://123thethao.com/uploads/news/04-04-2016/nese1.jpg" alt="Higuain bị thẻ đỏ, Napoli “phơi áo” trước Udinese"></a><div class="info">
+                                              <a href="http://123thethao.com/italia/higuain-bi-the-do-napoli-phoi-ao-truoc-udinese.html" class="title">Higuain bị thẻ đỏ, Napoli “phơi áo” trước Udinese</a>
+                                              
+                                            </div></div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box_category">
+                        <div class="header"><h2 class="title">Ngoại hạng Anh</h2></div>
+                        <div class="content">
+                            <div class="view-aside-news">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                          <div class="first-news">
+                                            <a href="http://123thethao.com/italia/goc-napoli-da-trang-xe-cat.html"><img class="img-responsive" src="http://123thethao.com/timthumb.php?src=http://123thethao.com/uploads/news/05-04-2016/napoli-660x350.jpg&amp;w=680&amp;h=400&amp;zc=1" alt="Góc Napoli: Dã tràng xe cát"></a><h4 class="title"><a href="http://123thethao.com/italia/goc-napoli-da-trang-xe-cat.html" title="Góc Napoli: Dã tràng xe cát">Góc Napoli: Dã tràng xe cát</a></h4><p class="sumary">(BongDa.com.vn) – Bước ngoặt đã xảy ra ở vòng 32 Serie A mùa này khi Napoli gục ngã trước Udinese còn Juventus thì vẫn...</p>
+                                          </div>
+                                         
+                                    </div>
+                                    <div class="col-md-5">
+                                                        <div class="list-new">
+                                            
+                                            <div class="item-n"><a class="img-tb" href="http://123thethao.com/italia/juventus-tien-gan-toi-chuc-vo-dich-serie-a.html"><img class="img-responsive" src="http://123thethao.com/uploads/news/04-04-2016/man-9528-1459640410.jpg" alt="Juventus tiến gần tới chức vô địch Serie A"></a><div class="info">
+                                              <a href="http://123thethao.com/italia/juventus-tien-gan-toi-chuc-vo-dich-serie-a.html" class="title">Juventus tiến gần tới chức vô địch Serie A</a>
+                                              
+                                            </div></div>
+                                          
+                                            <div class="item-n"><a class="img-tb" href="http://123thethao.com/italia/cesare-maldini-tam-khien-bat-tu-cua-doi-bong-mau-do-den.html"><img class="img-responsive" src="http://123thethao.com/uploads/news/04-04-2016/CesareMaldini2.jpg" alt="Cesare Maldini: Tấm khiên bất tử của đội bóng màu đỏ đen"></a><div class="info">
+                                              <a href="http://123thethao.com/italia/cesare-maldini-tam-khien-bat-tu-cua-doi-bong-mau-do-den.html" class="title">Cesare Maldini: Tấm khiên bất tử của đội bóng màu đỏ đen</a>
+                                              
+                                            </div></div>
+                                          
+                                            <div class="item-n"><a class="img-tb" href="http://123thethao.com/italia/higuain-bi-the-do-napoli-phoi-ao-truoc-udinese.html"><img class="img-responsive" src="http://123thethao.com/uploads/news/04-04-2016/nese1.jpg" alt="Higuain bị thẻ đỏ, Napoli “phơi áo” trước Udinese"></a><div class="info">
+                                              <a href="http://123thethao.com/italia/higuain-bi-the-do-napoli-phoi-ao-truoc-udinese.html" class="title">Higuain bị thẻ đỏ, Napoli “phơi áo” trước Udinese</a>
+                                              
+                                            </div></div>
+                                            <div class="item-n"><a class="img-tb" href="http://123thethao.com/italia/higuain-bi-the-do-napoli-phoi-ao-truoc-udinese.html"><img class="img-responsive" src="http://123thethao.com/uploads/news/04-04-2016/nese1.jpg" alt="Higuain bị thẻ đỏ, Napoli “phơi áo” trước Udinese"></a><div class="info">
+                                              <a href="http://123thethao.com/italia/higuain-bi-the-do-napoli-phoi-ao-truoc-udinese.html" class="title">Higuain bị thẻ đỏ, Napoli “phơi áo” trước Udinese</a>
+                                              
+                                            </div></div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box_category">
+                        <div class="header"><h2 class="title">Ngoại hạng Anh</h2></div>
+                        <div class="content">
+                            <div class="view-aside-news">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                          <div class="first-news">
+                                            <a href="http://123thethao.com/italia/goc-napoli-da-trang-xe-cat.html"><img class="img-responsive" src="http://123thethao.com/timthumb.php?src=http://123thethao.com/uploads/news/05-04-2016/napoli-660x350.jpg&amp;w=680&amp;h=400&amp;zc=1" alt="Góc Napoli: Dã tràng xe cát"></a><h4 class="title"><a href="http://123thethao.com/italia/goc-napoli-da-trang-xe-cat.html" title="Góc Napoli: Dã tràng xe cát">Góc Napoli: Dã tràng xe cát</a></h4><p class="sumary">(BongDa.com.vn) – Bước ngoặt đã xảy ra ở vòng 32 Serie A mùa này khi Napoli gục ngã trước Udinese còn Juventus thì vẫn...</p>
+                                          </div>
+                                         
+                                    </div>
+                                    <div class="col-md-5">
+                                                        <div class="list-new">
+                                            
+                                            <div class="item-n"><a class="img-tb" href="http://123thethao.com/italia/juventus-tien-gan-toi-chuc-vo-dich-serie-a.html"><img class="img-responsive" src="http://123thethao.com/uploads/news/04-04-2016/man-9528-1459640410.jpg" alt="Juventus tiến gần tới chức vô địch Serie A"></a><div class="info">
+                                              <a href="http://123thethao.com/italia/juventus-tien-gan-toi-chuc-vo-dich-serie-a.html" class="title">Juventus tiến gần tới chức vô địch Serie A</a>
+                                              
+                                            </div></div>
+                                          
+                                            <div class="item-n"><a class="img-tb" href="http://123thethao.com/italia/cesare-maldini-tam-khien-bat-tu-cua-doi-bong-mau-do-den.html"><img class="img-responsive" src="http://123thethao.com/uploads/news/04-04-2016/CesareMaldini2.jpg" alt="Cesare Maldini: Tấm khiên bất tử của đội bóng màu đỏ đen"></a><div class="info">
+                                              <a href="http://123thethao.com/italia/cesare-maldini-tam-khien-bat-tu-cua-doi-bong-mau-do-den.html" class="title">Cesare Maldini: Tấm khiên bất tử của đội bóng màu đỏ đen</a>
+                                              
+                                            </div></div>
+                                          
+                                            <div class="item-n"><a class="img-tb" href="http://123thethao.com/italia/higuain-bi-the-do-napoli-phoi-ao-truoc-udinese.html"><img class="img-responsive" src="http://123thethao.com/uploads/news/04-04-2016/nese1.jpg" alt="Higuain bị thẻ đỏ, Napoli “phơi áo” trước Udinese"></a><div class="info">
+                                              <a href="http://123thethao.com/italia/higuain-bi-the-do-napoli-phoi-ao-truoc-udinese.html" class="title">Higuain bị thẻ đỏ, Napoli “phơi áo” trước Udinese</a>
+                                              
+                                            </div></div>
+                                            <div class="item-n"><a class="img-tb" href="http://123thethao.com/italia/higuain-bi-the-do-napoli-phoi-ao-truoc-udinese.html"><img class="img-responsive" src="http://123thethao.com/uploads/news/04-04-2016/nese1.jpg" alt="Higuain bị thẻ đỏ, Napoli “phơi áo” trước Udinese"></a><div class="info">
+                                              <a href="http://123thethao.com/italia/higuain-bi-the-do-napoli-phoi-ao-truoc-udinese.html" class="title">Higuain bị thẻ đỏ, Napoli “phơi áo” trước Udinese</a>
+                                              
+                                            </div></div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box_category">
+                        <div class="header"><h2 class="title">Ngoại hạng Anh</h2></div>
+                        <div class="content">
+                            <div class="view-aside-news">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                          <div class="first-news">
+                                            <a href="http://123thethao.com/italia/goc-napoli-da-trang-xe-cat.html"><img class="img-responsive" src="http://123thethao.com/timthumb.php?src=http://123thethao.com/uploads/news/05-04-2016/napoli-660x350.jpg&amp;w=680&amp;h=400&amp;zc=1" alt="Góc Napoli: Dã tràng xe cát"></a><h4 class="title"><a href="http://123thethao.com/italia/goc-napoli-da-trang-xe-cat.html" title="Góc Napoli: Dã tràng xe cát">Góc Napoli: Dã tràng xe cát</a></h4><p class="sumary">(BongDa.com.vn) – Bước ngoặt đã xảy ra ở vòng 32 Serie A mùa này khi Napoli gục ngã trước Udinese còn Juventus thì vẫn...</p>
+                                          </div>
+                                         
+                                    </div>
+                                    <div class="col-md-5">
+                                                        <div class="list-new">
+                                            
+                                            <div class="item-n"><a class="img-tb" href="http://123thethao.com/italia/juventus-tien-gan-toi-chuc-vo-dich-serie-a.html"><img class="img-responsive" src="http://123thethao.com/uploads/news/04-04-2016/man-9528-1459640410.jpg" alt="Juventus tiến gần tới chức vô địch Serie A"></a><div class="info">
+                                              <a href="http://123thethao.com/italia/juventus-tien-gan-toi-chuc-vo-dich-serie-a.html" class="title">Juventus tiến gần tới chức vô địch Serie A</a>
+                                              
+                                            </div></div>
+                                          
+                                            <div class="item-n"><a class="img-tb" href="http://123thethao.com/italia/cesare-maldini-tam-khien-bat-tu-cua-doi-bong-mau-do-den.html"><img class="img-responsive" src="http://123thethao.com/uploads/news/04-04-2016/CesareMaldini2.jpg" alt="Cesare Maldini: Tấm khiên bất tử của đội bóng màu đỏ đen"></a><div class="info">
+                                              <a href="http://123thethao.com/italia/cesare-maldini-tam-khien-bat-tu-cua-doi-bong-mau-do-den.html" class="title">Cesare Maldini: Tấm khiên bất tử của đội bóng màu đỏ đen</a>
+                                              
+                                            </div></div>
+                                          
+                                            <div class="item-n"><a class="img-tb" href="http://123thethao.com/italia/higuain-bi-the-do-napoli-phoi-ao-truoc-udinese.html"><img class="img-responsive" src="http://123thethao.com/uploads/news/04-04-2016/nese1.jpg" alt="Higuain bị thẻ đỏ, Napoli “phơi áo” trước Udinese"></a><div class="info">
+                                              <a href="http://123thethao.com/italia/higuain-bi-the-do-napoli-phoi-ao-truoc-udinese.html" class="title">Higuain bị thẻ đỏ, Napoli “phơi áo” trước Udinese</a>
+                                              
+                                            </div></div>
+                                            <div class="item-n"><a class="img-tb" href="http://123thethao.com/italia/higuain-bi-the-do-napoli-phoi-ao-truoc-udinese.html"><img class="img-responsive" src="http://123thethao.com/uploads/news/04-04-2016/nese1.jpg" alt="Higuain bị thẻ đỏ, Napoli “phơi áo” trước Udinese"></a><div class="info">
+                                              <a href="http://123thethao.com/italia/higuain-bi-the-do-napoli-phoi-ao-truoc-udinese.html" class="title">Higuain bị thẻ đỏ, Napoli “phơi áo” trước Udinese</a>
+                                              
+                                            </div></div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 hidden-xs hidden-sm" id="wrap-right">
+                    <div id="right">
+                        <div class="box_right">
+                            <img width="100%" src="images/widget-result-bg.png">
+                        </div>
+                        <div class="box_right">
+                          <ul id="news_tab" class="nav nav-tabs" role="tablist"> 
+                              <li role="presentation" class="first active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Tin xem nhiều</a></li>
+                              <li class="line"></li> 
+                              <li role="presentation" class=""><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile" aria-expanded="false">Mới nhất</a></li> 
+                          </ul>
+                          <div id="news_tab_content" class="tab-content"> 
+                              <div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab"> 
+                                  
+                                  <ul class="box_news_tab clearfix">
+                                      <li class="clearfix">
+                                          <a href="#"><img src="images/img_news.jpg" alt="" /></a>
+                                          <h4><a href="#"> bi sa thai - Loi canh tinh cho Benitez</a></h4>
+                                          <span>37 phut truoc</span>
+                                      </li>
+                                      <li class="clearfix">
+                                          <a href="#"><img src="images/img_news.jpg" alt="" /></a>
+                                          <h4><a href="#"> bi sa thai - Loi canh tinh cho Benitez</a></h4>
+                                          <span>37 phut truoc</span>
+                                      </li>
+                                      <li class="clearfix">
+                                          <a href="#"><img src="images/img_news.jpg" alt="" /></a>
+                                          <h4><a href="#"> bi sa thai - Loi canh tinh cho Benitez</a></h4>
+                                          <span>37 phut truoc</span>
+                                      </li>
+                                      <li class="clearfix">
+                                          <a href="#"><img src="images/img_news.jpg" alt="" /></a>
+                                          <h4><a href="#"> bi sa thai - Loi canh tinh cho Benitez</a></h4>
+                                          <span>37 phut truoc</span>
+                                      </li>
+                                      <li class="clearfix">
+                                          <a href="#"><img src="images/img_news.jpg" alt="" /></a>
+                                          <h4><a href="#"> bi sa thai - Loi canh tinh cho Benitez</a></h4>
+                                          <span>37 phut truoc</span>
+                                      </li>
+                                  </ul>
+                                 
+                              </div> 
+                            <div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab"> 
+                                <ul class="box_news_tab clearfix">
+                                    <li class="clearfix">
+                                        <a href="#"><img src="images/img_news.jpg" alt="" /></a>
+                                        <h4><a href="#"> bi sa thai - Loi canh tinh cho Benitez</a></h4>
+                                        <span>37 phut truoc</span>
+                                    </li>
+                                    <li class="clearfix">
+                                        <a href="#"><img src="images/img_news.jpg" alt="" /></a>
+                                        <h4><a href="#"> bi sa thai - Loi canh tinh cho Benitez</a></h4>
+                                        <span>37 phut truoc</span>
+                                    </li>
+                                    <li class="clearfix">
+                                        <a href="#"><img src="images/img_news.jpg" alt="" /></a>
+                                        <h4><a href="#"> bi sa thai - Loi canh tinh cho Benitez</a></h4>
+                                        <span>37 phut truoc</span>
+                                    </li>
+                                    <li class="clearfix">
+                                        <a href="#"><img src="images/img_news.jpg" alt="" /></a>
+                                        <h4><a href="#"> bi sa thai - Loi canh tinh cho Benitez</a></h4>
+                                        <span>37 phut truoc</span>
+                                    </li>
+                                    <li class="clearfix">
+                                        <a href="#"><img src="images/img_news.jpg" alt="" /></a>
+                                        <h4><a href="#"> bi sa thai - Loi canh tinh cho Benitez</a></h4>
+                                        <span>37 phut truoc</span>
+                                    </li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="box_right">
+                            <a href="#" target="_blank">
+                                <img src="images/263-212.gif" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <footer>
+          <div id="top_footer"></div>
+          <div id="content_footer">
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-6 hidden-xs hidden-sm">
+                          <div class="row">
+                              <div class="col-md-4">
+                                  <ul class="text_link">
+                                      <li><a href="#" title="">Liên hệ</a></li>
+                                      <li><a href="#" title="">Về chúng tôi</a></li>
+                                      <li><a href="#" title="">Quy định</a></li>
+                                      <li><a href="#" title="">Điều khoản</a></li>
+                                  </ul>
+                              </div>
+                              <div class="col-md-4">
+                                  <ul class="text_link">
+                                      <li><a href="#" title="">Liên hệ</a></li>
+                                      <li><a href="#" title="">Về chúng tôi</a></li>
+                                      <li><a href="#" title="">Quy định</a></li>
+                                      <li><a href="#" title="">Điều khoản</a></li>
+                                  </ul>
+                              </div>
+                              <div class="col-md-4">
+                                  <ul class="text_link">
+                                      <li><a href="#" title="">Liên hệ</a></li>
+                                      <li><a href="#" title="">Về chúng tôi</a></li>
+                                      <li><a href="#" title="">Quy định</a></li>
+                                      <li><a href="#" title="">Điều khoản</a></li>
+                                  </ul>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-xs-12 col-md-6">
+                          <div class="info_company">
+                              Bản quyền và phát triển bởi Công ty Cổ phần Yêu Thể Thao
+                              Địa chỉ: Tầng 3, số 1 Huyền Trân Công Chúa, P.Bến Thành, Q.1, TP.HCM.
+                              Điện thoại: (84-8) 38251028, fax: (84-8) 38251049.
+                              Quảng cáo: 0936 00 99 59 - Email : commedia.ad@gmail.com
+                              Toà soạn & hỗ trợ: (84-8) 38251028 - Email: hotro@bongda.com.vn
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+          </div>
+      </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/slider.js"></script>
+    <script type="text/javascript" src="plugins/jscrollpane/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" src="plugins/jscrollpane/jquery.mousewheel.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

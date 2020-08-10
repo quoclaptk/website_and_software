@@ -1,0 +1,6 @@
+#langTab > li{margin-bottom:5px}
+#langTab > li > a{display:block;padding:10px;text-align:center;background:#fff;color:#31B0D5;border-radius:4px;border:1px solid #31B0D5}
+#langTab > li > a:hover{border-color:#eee #eee #ddd;color:#fff;background-color:#31B0D5}
+#langTab > li.active > a,#langTab > li.active > a:hover,#langTab > li.active > a:focus{color:#fff;cursor:default;background-color:#31B0D5;border:1px solid #fff}
+p#default{text-align:center;padding:5% 0}
+p#default img{max-width:100%;height:auto}

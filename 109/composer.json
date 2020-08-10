@@ -1,0 +1,48 @@
+{
+    "name": "phalcon/110",
+    "description": "This is an application for the Phalcon PHP Framework",
+    "version": "1.2.0",
+    "keywords": [
+        "phalcon",
+        "framework",
+        "sample app",
+        "110"
+    ],
+    "type": "library",
+    "license": "BSD-3",
+    "homepage": "https://www.phalconphp.com",
+    "authors" : [
+        {
+            "name" : "congngokmt",
+            "email" : "congngotn@gmail.com"
+        }
+    ],
+      "autoload": {
+        "psr-4": {
+          "Modules\\": "app/library/",
+          "Modules\\Models\\": "app/models/",
+          "Modules\\Forms\\": "app/forms/",
+          "Modules\\Helpers\\": "app/helpers/",
+          "Modules\\Backend\\": "app/backend/",
+          "Modules\\Frontend\\": "app/frontend/",
+          "Modules\\Logger\\": "app/logger/",
+          "Modules\\Repositories\\": "app/repositories/"
+        }
+      },
+    "require": {
+        "php": ">=5.5",
+        "phalcon-ext/mailer": "~2.0",
+        "ext-phalcon": "~3.0",
+        "statickidz/php-google-translate-free": "^1.0",
+        "monolog/monolog": "^1.24",
+        "vlucas/phpdotenv": "^2.4",
+        "elasticsearch/elasticsearch": "~2.0",
+        "php-amqplib/php-amqplib": ">=2.6.1",
+        "matthiasmullie/minify": "^1.3",
+        "michele-angioni/phalcon-repositories": "^0.5.0"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    }
+}

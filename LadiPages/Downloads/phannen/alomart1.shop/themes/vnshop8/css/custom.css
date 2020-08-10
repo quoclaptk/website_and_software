@@ -1,0 +1,126 @@
+.product-name-market-price {
+    text-align: center;
+    text-decoration: none !important;
+    color: #000000!important;
+    padding-left: 0.02rem !important;
+    padding-right: 0.02rem !important;
+    margin-top: 0.15rem;
+}
+
+.product-name-market-price  a{
+    text-decoration: none !important;
+    color: #000000!important;
+}
+
+.additional-css-item {
+    margin-bottom: 0.2rem !important;
+    height: 5rem !important;
+    width: 2.9rem !important;
+    overflow: hidden;
+}
+.product-name {
+    text-decoration: none !important;
+    color: #000000 !important;
+}
+
+.product-name a{
+    text-decoration: none !important;
+    color: #000000 !important;
+}
+
+.up-sell {
+    list-style: none;
+    margin-top: 0.2rem;
+}
+
+.up-sell li {
+    vertical-align: text-top;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.up-sell li img {
+    object-fit: cover;
+    max-width: 1.2rem!important;
+    height: 100%;
+    border-radius: 0.1rem;
+}
+
+.up-sell-product-container {
+    border: 0.02rem solid #808080;
+    max-width: 100%;
+    margin-bottom: 0.1rem;
+    border-radius: 0.1rem
+}
+
+.up-sell-product-name {
+    height: 1rem;
+    overflow: hidden;
+}
+
+.up-sell-product-price {
+    height: 0.5rem;
+    overflow: hidden;
+}
+
+.up-sell-buy-btn {
+    border-radius: 0.1rem;
+    width: 100%;
+    height: 1.2rem;
+    text-align: center;
+    background-color: #ff2e2e;
+    color: white;
+    margin-bottom: 0.2rem;
+}
+
+.new-price {
+    color: #ff2e2e;
+    font-weight: bold;
+}
+
+.old-price {
+    color: #7d7d7d;
+    text-decoration: line-through;
+    font-weight: normal !important;
+    font-size: 0.28rem !important;
+}
+
+.upsell-discount {
+    color: #7d7d7d;
+    font-weight: normal !important;
+    font-size: 0.28rem !important;
+}
+
+.upsell-new-price {
+    color: #ff2e2e;
+    font-weight: bold;
+}
+
+.upsell-old-price {
+    color: #7d7d7d;
+    text-decoration: line-through;
+    font-weight: normal !important;
+    font-size: 0.28rem !important;
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.upsell-container {
+    padding: 0rem 0.4rem 0rem 0.4rem;
+    border: 0.02rem solid #f1f1f1;
+    border-radius: 0.1rem;
+    margin: 0.24rem;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
+}
+
+.quick-order-input {
+    vertical-align: middle;
+    border: none !important;
+}

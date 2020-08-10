@@ -1,0 +1,92 @@
+.container-banner {
+    width: 100%;
+    margin: 0 auto;
+}
+.bannerbackground {
+    background: url(../background/background.jpg);
+    width: 100%;
+    height: 300px;
+	 object-fit: cover;
+   overflow: hidden;
+}
+.bannerlogo img {
+    width: 150px;
+    margin-top: 7px;
+    margin-left: 10px;	
+
+}
+.bannercompany {
+    color: #fff;
+    font-weight: bold;
+    font: bold 38px Sans-Serif;
+    margin: -122px 0px 34px 182px;
+    text-shadow: 0 1px 0 #ccc, 0 1px 0 #c9c9c9, 0 1px 0 #bbb, 0 1px 0 #b9b9b9, 0 2px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 5px rgba(0,0,0,.25), 0 5px 5px rgba(0,0,0,.2), 0 10px 10px rgba(0,0,0,.15);
+}
+.bannerslogan {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin: -15px 0px 34px 182px;
+}
+.bannerproduct {
+    margin: -155px 0px 0px 0px;
+    float: right;
+}
+.producth1{
+    width: 290px;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 500px;
+    float: right;
+    margin: 5px 5px 0px 0px
+}
+.producth2 {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 100px;
+    float: right;
+    margin: 176px -84px 0px 0px;
+   transform: scale(1.0);
+   animation: zoomout 3s infinite;
+}
+
+@keyframes zoomout {
+  0% {
+    transform: scale(1.0);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1.0);
+  }
+}
+.producth3 {
+width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 100px;
+    float: right;
+    margin: 4px -328px 0px 0px;
+   transform: scale(1.0);
+   animation: zoomout 3s infinite;
+}
+
+@keyframes zoomout {
+  0% {
+    transform: scale(1.0);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1.0);
+  }
+}
+.bannercontact {
+    margin: 128px 0px 0px 17px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}

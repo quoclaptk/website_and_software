@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.xtgem.com	TRUE	/	FALSE	1999999999	_xta_uid	8770bf9337e99d845e8513db8ccb2f6e
+.xtgem.com	TRUE	/	FALSE	1999999999	_xta_vid	ae68c2a54d00a3b5961429b5916ad039-1595690776
+.quantserve.com	TRUE	/	FALSE	1999999999	mc	5f1c4f2e-7ed54-6e91c-b0f26
+

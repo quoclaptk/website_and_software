@@ -1,0 +1,63 @@
+<IfModule mod_deflate.c>
+    RewriteEngine On
+	RewriteCond %{HTTP_HOST} ^(.*)\.110\.vn$ [NC] 
+	RewriteCond %{HTTPS} !=on
+    RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+    RewriteCond %{HTTP_USER_AGENT} Wordpress [NC]
+    RewriteRule .* - [F,L]
+    RewriteRule ^(.well-known)($|/) - [L]
+    RewriteRule ^translate.php - [L]
+    RewriteRule ^robots.php - [L]
+    RewriteRule ^robots.txt - [L]
+    RewriteRule /robots\.txt$ /home/p110/domains/110.vn/public_html/robots.php
+    RewriteRule ^$ public/     [L]
+    RewriteRule (.*) public/$1 [L]
+    
+	ExpiresActive On
+	ExpiresDefault "access plus 10 seconds"
+	ExpiresByType text/cache-manifest "access plus 0 seconds"
+
+	# Favicon
+	ExpiresByType image/x-icon "access plus 15552000 seconds"
+
+	# Media: images, video, audio
+	ExpiresByType image/gif "access plus 15552000 seconds"
+	ExpiresByType image/png "access plus 15552000 seconds"
+	ExpiresByType image/jpeg "access plus 15552000 seconds"
+	ExpiresByType image/jpg "access plus 15552000 seconds"
+	ExpiresByType video/ogg "access plus 15552000 seconds"
+	ExpiresByType audio/ogg "access plus 15552000 seconds"
+	ExpiresByType video/mp4 "access plus 15552000 seconds"
+	ExpiresByType video/webm "access plus 15552000 seconds"
+
+	# HTC files  (css3pie)
+	ExpiresByType text/x-component "access plus 15552000 seconds"
+
+	# Webfonts
+	ExpiresByType application/x-font-ttf "access plus 15552000 seconds"
+	ExpiresByType font/opentype "access plus 15552000 seconds"
+	ExpiresByType font/woff2 "access plus 15552000 seconds"
+	ExpiresByType application/x-font-woff "access plus 15552000 seconds"
+	ExpiresByType image/svg+xml "access plus 15552000 seconds"
+	ExpiresByType application/vnd.ms-fontobject "access plus 15552000 seconds"
+
+	# CSS and JavaScript
+	ExpiresByType text/css "access plus 15552000 seconds"
+	ExpiresByType application/javascript "access plus 15552000 seconds"
+	ExpiresByType text/javascript "access plus 15552000 seconds"
+	ExpiresByType application/javascript "access plus 15552000 seconds"
+	ExpiresByType application/x-javascript "access plus 15552000 seconds"
+
+	############################################
+	## enable apache served files compression
+	 
+	AddOutputFilterByType DEFLATE text/plain
+	AddOutputFilterByType DEFLATE text/html
+	AddOutputFilterByType DEFLATE text/xml
+	AddOutputFilterByType DEFLATE text/css
+	AddOutputFilterByType DEFLATE application/xml
+	AddOutputFilterByType DEFLATE application/xhtml+xml
+	AddOutputFilterByType DEFLATE application/rss+xml
+	AddOutputFilterByType DEFLATE application/javascript
+	AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
